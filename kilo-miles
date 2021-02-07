@@ -1,0 +1,12 @@
+#python program to convert kilometers to miles
+kilo_meter=float(input("Enter the speed in kilometer as a unit:\n"))
+conversion_ratio=0.621371
+miles=kilo_meter*conversion_ratio
+print(kilo_meter,"kilometers is equal to",miles,"miles")
+
+
+#python program to convert miles to kilometers
+miles=float(input("Enter the speed in miles as a unit:\n"))
+conversion_ratio=0.621371
+kilometers=miles/conversion_ratio
+print(miles,"miles is equal to",kilometers,"kilometers")
