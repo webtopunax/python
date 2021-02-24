@@ -1,0 +1,22 @@
+#Leap year program by using if condition in Python
+
+year=int(input("Enter year: "))
+if(year%4==0 and year%100!=0 or year%400==0):
+    print( year,"is a leap year")
+else:
+    print(year,"year isn't a leap year")
+
+
+
+#Leap year program by using nested if in python
+year = int(input("Enter year: "))
+if(year % 4) == 0:
+    if(year % 100) == 0:
+        if(year % 400) == 0:
+            print(year, "is a leap year")
+        else:
+            print(year,"is not a leap year")
+    else:
+        print(year,"is a leap year")
+else:
+    print(year,"is not a leap year ")
